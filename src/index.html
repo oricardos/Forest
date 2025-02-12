@@ -157,5 +157,26 @@
       </ol>
     </div>
     <!-- Fim Pseudo Classes -->
+     <!-- Before e after -->
+    <div class="my-10">
+      <h1 class="text-3xl">Before e after</h1>
+      <button
+          class="bg-blue-400 hover:bg-blue-200 active:bg-blue-300 text-blue-950 border-2 border-blue-200 py-2 px-4 mt-4 rounded-md relative after:size-6 after:absolute after:bg-white after:rounded-full after:border-4 after:border-blue-900 after:border-r-transparent after:-top-2 after:-right-2"
+          disabled
+        >
+          Enviar
+        </button>
+        <!-- sem after -->
+        <button
+        class="bg-blue-400 hover:bg-blue-200 active:bg-blue-300 text-blue-950 border-2 border-blue-200 py-2 px-4 mt-4 rounded-md relative"
+        disabled
+      >
+        Enviar
+        <span
+          class="size-6 absolute bg-white rounded-full border-4 border-blue-900 border-r-transparent -top-2 -right-2"
+        ></span>
+      </button>
+    </div>
+      <!-- Fim Before e after -->
   </body>
 </html>
