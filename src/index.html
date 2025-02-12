@@ -188,7 +188,7 @@
       >
         Venha experimentar a vida na floresta
       </h1>
-      <div class="grid grid-cols-2 min-[800px]:grid-cols-1 gap-8">
+      <div class="grid grid-cols-2 min-[800px]:grid-cols-1 gap-8 mb-8">
         <div class="h-20 bg-green-400 rounded-md"></div>
         <div class="h-20 bg-green-400 rounded-md"></div>
       </div>
@@ -240,6 +240,81 @@
     </div>
     <!-- Fim Responsividade -->
     <!-- Outros Modificadores -->
+    <div class="my-10">
+      <h1 class="text-3xl mb-4">Modificadores</h1>
+      <div class="size-8 bg-white border border-blue dark:bg-neutral-950"></div>
+    </div>
+
+    <h1 class="text-3xl mb-4">Exercício</h1>
+    <form class="space-y-2">
+      <div>
+        <input
+          type="radio"
+          id="nimbus"
+          value="nimbus"
+          name="bike"
+          class="peer inline-block"
+        />
+        <label
+          class="flex gap-2 bg-gray-200 px-2 py-2 w-80 font-semibold rounded-md justify-between items-center"
+          for="nimbus"
+        >
+          Nimbus Stark
+          <span>R$ 4999</span>
+        </label>
+
+        <div
+          class="bg-gray-200 p-2 hidden flex-col w-80 rounded-md ml-5 mt-4 peer-checked:flex"
+        >
+          <span>Motor Elétrico</span>
+          <span>Fibra de Carbono</span>
+          <span>45 km/h</span>
+          <span>Rastreador</span>
+        </div>
+      </div>
+
+      <div>
+        <input type="radio" id="magic" name="bike" class="peer" />
+        <div
+          class="bg-gray-200 px-2 py-2 w-80 font-semibold rounded-md flex justify-between items-center"
+          
+        >
+          <label class="flex gap-2 for="magic"">
+            Magic Might
+            <span>R$ 2499</span>
+          </label>
+        </div>
+        <div
+          class="bg-gray-200 p-2 hidden flex-col w-80 rounded-md ml-5 mt-4 peer-checked:flex"
+        >
+          <span>Motor Elétrico</span>
+          <span>Fibra de Carbono</span>
+          <span>45 km/h</span>
+          <span>Rastreador</span>
+        </div>
+      </div>
+
+      <div>
+        <input type="radio" id="cosmic" name="bike" class="peer" />
+        <div
+          class="bg-gray-200 px-2 py-2 w-80 font-semibold rounded-md flex justify-between items-center"
+          for="cosmic"
+        >
+          <label class="flex gap-2">
+            Nebula Cosmic
+            <span>R$ 3999</span>
+          </label>
+        </div>
+        <div
+          class="bg-gray-200 p-2 hidden flex-col w-80 rounded-md ml-5 mt-4 peer-checked:flex"
+        >
+          <span>Motor Elétrico</span>
+          <span>Fibra de Carbono</span>
+          <span>45 km/h</span>
+          <span>Rastreador</span>
+        </div>
+      </div>
+    </form>
     <!-- Fim Outros Modificadores -->
   </body>
 </html>
