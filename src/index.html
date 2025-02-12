@@ -148,7 +148,9 @@
         </button>
       </div>
 
-      <ol class="mt-4 list-decimal m-4 *:p-2 first:*:text-green-600 last:*:text-red-600 odd:*:bg-gray-200">
+      <ol
+        class="mt-4 list-decimal m-4 *:p-2 first:*:text-green-600 last:*:text-red-600 odd:*:bg-gray-200"
+      >
         <li>Marta</li>
         <li>Nina</li>
         <li>Maria</li>
@@ -157,17 +159,17 @@
       </ol>
     </div>
     <!-- Fim Pseudo Classes -->
-     <!-- Before e after -->
+    <!-- Before e after -->
     <div class="my-10">
       <h1 class="text-3xl">Before e after</h1>
       <button
-          class="bg-blue-400 hover:bg-blue-200 active:bg-blue-300 text-blue-950 border-2 border-blue-200 py-2 px-4 mt-4 rounded-md relative after:size-6 after:absolute after:bg-white after:rounded-full after:border-4 after:border-blue-900 after:border-r-transparent after:-top-2 after:-right-2"
-          disabled
-        >
-          Enviar
-        </button>
-        <!-- sem after -->
-        <button
+        class="bg-blue-400 hover:bg-blue-200 active:bg-blue-300 text-blue-950 border-2 border-blue-200 py-2 px-4 mt-4 rounded-md relative after:size-6 after:absolute after:bg-white after:rounded-full after:border-4 after:border-blue-900 after:border-r-transparent after:-top-2 after:-right-2"
+        disabled
+      >
+        Enviar
+      </button>
+      <!-- sem after -->
+      <button
         class="bg-blue-400 hover:bg-blue-200 active:bg-blue-300 text-blue-950 border-2 border-blue-200 py-2 px-4 mt-4 rounded-md relative"
         disabled
       >
@@ -177,6 +179,67 @@
         ></span>
       </button>
     </div>
-      <!-- Fim Before e after -->
+    <!-- Fim Before e after -->
+    <!-- Responsividade -->
+    <div class="my-10">
+      <h1 class="text-3xl mb-4">Responsividade</h1>
+      <h1
+        class="text-2xl md:hover:text-4xl transition-all font-bold font-serif"
+      >
+        Venha experimentar a vida na floresta
+      </h1>
+      <div class="grid grid-cols-2 min-[800px]:grid-cols-1 gap-8">
+        <div class="h-20 bg-green-400 rounded-md"></div>
+        <div class="h-20 bg-green-400 rounded-md"></div>
+      </div>
+      <div
+        class="border-[20px] bg-lime-950 p-8 flex flex-col align-center text-center rounded"
+      >
+        <h4 class="text-lime-200 uppercase text-base">
+          conecte-se com a natureza
+        </h4>
+        <h1
+          class="capitalize text-white text-5xl md:text-7xl font-serif mt-4 text-balance"
+        >
+          Cada som, cada momento, uma nova descoberta
+        </h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+          <div class="bg-lime-900 rounded-lg p-8 flex flex-col items-start">
+            <span class="capitalize block text-2xl font-serif text-lime-300"
+              >lua nova</span
+            >
+            <span class="text-5xl text-lime-50 font-serif mt-4">23</span>
+            <p class="text-xl text-lime-50 capitalize mb-4">março 2049</p>
+            <p class="text-lime-200 text-left mb-4">
+              Melhor período para observação astronômica. o Céu estará claro e
+              as estrelas visíveis.
+            </p>
+
+            <button class="bg-lime-950 text-lime-50 px-4 py-2 rounded-full">
+              Reservar 23/03
+            </button>
+          </div>
+
+          <div class="bg-lime-900 rounded-lg p-8 flex flex-col items-start">
+            <span class="capitalize block text-2xl font-serif text-lime-300"
+              >Aurora Boreal</span
+            >
+            <span class="text-5xl text-lime-50 font-serif mt-4">15</span>
+            <p class="text-xl text-lime-50 capitalize mb-4">abril 2049</p>
+            <p class="text-lime-200 text-left mb-4">
+              Melhor período para observação da Aurora Boreal. O Céu estará
+              iluminado pelas estrelas.
+            </p>
+
+            <button class="bg-lime-950 text-lime-50 px-4 py-2 rounded-full">
+              Reservar 15/04
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fim Responsividade -->
+    <!-- Outros Modificadores -->
+    <!-- Fim Outros Modificadores -->
   </body>
 </html>
