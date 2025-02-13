@@ -183,9 +183,7 @@
     <!-- Responsividade -->
     <div class="my-10">
       <h1 class="text-3xl mb-4">Responsividade</h1>
-      <h1
-        class="text-2xl md:hover:text-4xl transition-all font-bold font-serif"
-      >
+      <h1 class="text-2xl md:hover:text-4xl Animações-all font-bold font-serif">
         Venha experimentar a vida na floresta
       </h1>
       <div class="grid grid-cols-2 min-[800px]:grid-cols-1 gap-8 mb-8">
@@ -347,10 +345,45 @@
     <div
       class="flex gap-10 flex-wrap bg-gray-200 p-10 *:size-32 *:ring-8 *:ring-white *:rotate-6 *:duration-500 *:origin-top-left *:shadow-2xl *:grayscale *:transition-all"
     >
-      <img class="hover:rotate-0 hover:grayscale-0" src="./img/floresta.jpg" alt="" />
-      <img class="hover:rotate-0 hover:grayscale-0" src="./img/floresta.jpg" alt="" />
-      <img class="hover:rotate-0 hover:grayscale-0" src="./img/floresta.jpg" alt="" />
+      <img
+        class="hover:rotate-0 hover:grayscale-0"
+        src="./img/floresta.jpg"
+        alt=""
+      />
+      <img
+        class="hover:rotate-0 hover:grayscale-0"
+        src="./img/floresta.jpg"
+        alt=""
+      />
+      <img
+        class="hover:rotate-0 hover:grayscale-0"
+        src="./img/floresta.jpg"
+        alt=""
+      />
     </div>
     <!-- Fim Transition -->
+
+    <!-- Animações -->
+    <div class="my-10">
+      <h1 class="text-3xl mb-4">Animações</h1>
+      <button
+        class="bg-green-200 text-green-800 py-2 px-4 rounded-md flex items-center gap-2"
+      >
+        COMPRAR
+        <span
+          class="block size-4 rounded-full border-4 border-green-600 border-r-transparent animate-spin"
+        ></span>
+      </button>
+      <div class="m-6"></div>
+      <button
+        class="bg-blue-200 text-blue-800 py-2 px-4 rounded-md flex items-center gap-2 relative"
+      >
+        Mensagens
+       <span class="absolute size-3 bg-purple-600 -top-0.5 -right-0.5 rounded-full">
+        <span class="absolute size-3 bg-purple-600 inset-0 rounded-full animate-ping"></span>
+       </span>
+      </button>
+    </div>
+    <!-- Fim Translate -->
   </body>
 </html>
