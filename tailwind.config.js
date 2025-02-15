@@ -3,32 +3,25 @@ module.exports = {
   content: ['./src/**/*.{html,js}'],
   theme: {
     container: {
-      center:true,
+      center: true,
       padding: {
-        DEFAULT:'.5rem',
-        sm: '1rem',
-        lg: '2rem',
+        DEFAULT: ".5rem",
+        sm: '1rem'
       }
     },
     extend: {
       colors: {
-        verde: { //criar
-          200: '#acef75',
-          300: '#91EE77',
-          900: '#16281F',
-          950: '#0F1C15',
-        },
-        green: { //sobrescrever
-          300: '#91EE77', //...
+        verde: {
+          200: "#ACEF75",
+          300: "#91EE77",
+          400: "#17E880",
+          700: "#2E482C",
+          800: "#16281F",
+          900: "#0F1C15",
+          950: "#030504",
         }
-      },
-      spacing: {
-        22: '5.5rem'
-      },
-      fontSize: {
-        '2xs': '.5rem',
       }
-    },
+    }
   },
   plugins: [],
 }
