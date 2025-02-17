@@ -8,10 +8,15 @@
     <title>Forest</title>
   </head>
   <body class="bg-verde-800 font-sans">
-    <div class="container mt-4 flex justify-center md:justify-start ">
+    <!-- infos -->
+    <div class="container mt-4 flex justify-center md:justify-start">
       <div class="inline-flex items-center rounded-md bg-verde-900">
-        <span class="size-2 bg-verde-300 block rounded-full relative -left-1"></span>
-        <div class="flex text-verde-300 divide-x-2 divide-verde-800 *:px-4 *:py-2">
+        <span
+          class="size-2 bg-verde-300 block rounded-full relative -left-1"
+        ></span>
+        <div
+          class="flex text-verde-300 divide-x-2 divide-verde-800 *:px-4 *:py-2"
+        >
           <div class="capitalize" id="day">Segunda</div>
           <div id="temperature">25º</div>
           <!-- TODO TROCAR SOL POR EMOJIS -->
@@ -19,5 +24,20 @@
         </div>
       </div>
     </div>
+
+    <!-- Menu -->
+    <header class="container flex justify-between gap-8 py-8 items-center">
+      <a href="">
+        <img src="./img/forest.svg" alt="Forest" />
+      </a>
+      <nav>
+        <ul class="text-white text-xl flex flex-wrap gap-8 hover:*:underline  hover:*:underline-offset-8">
+          <li><a href="#acomodacoes">Acomodações</a></li>
+          <li><a href="#eventos">Eventos</a></li>
+          <li><a href="#experiencias">Experiências</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
   </body>
 </html>
