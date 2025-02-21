@@ -388,7 +388,10 @@
     </section>
 
     <!-- Contato -->
-    <section id="contato" class="container mb-12 sm:mb-16 grid gap-8 lg:grid-cols-2">
+    <section
+      id="contato"
+      class="container mb-12 sm:mb-16 grid gap-8 lg:grid-cols-2"
+    >
       <div>
         <h1 class="font-serif text-4xl text-verde-300 mb-4">Nossos contatos</h1>
         <p class="text-gray-200 text-balance mb-8">
@@ -464,20 +467,53 @@
             class="rounded-md border-2 border-verde-800 bg-verde-800 p-2 text-white focus:outline-none focus:ring-2 focus:ring-verde-400 focus:border-verde-900 placeholder:text-verde-700 resize-none"
           ></textarea>
         </div>
-        <button class="bg-verde-400 text-verde-900 py-2 px-4 inline-block rounded-full place-self-start">Enviar Mensagem</button>
+        <button
+          class="bg-verde-400 text-verde-900 py-2 px-4 inline-block rounded-full place-self-start"
+        >
+          Enviar Mensagem
+        </button>
       </form>
     </section>
 
     <!-- parceiros -->
-     <section id="parceiros" class="container mb-12 sm:mb-16">
-      <ul class="flex flex-col items-center py-4 max-sm:divide-y-2 max-sm:divide-verde-900 *:p-4 sm:flex-row sm:gap-8 sm:border-b-2 sm:border-t-2 sm:border-verde-900 sm:py-8 *:*:max-h-8">
-        <li><img src="./img/parceiros/caravan.svg" alt="caravan"></li>
-        <li><img src="./img/parceiros/dogs.svg" alt="dogs"></li>
-        <li><img src="./img/parceiros/lescone.svg" alt="lescone"></li>
-        <li><img src="./img/parceiros/surfbot.svg" alt="surfbot"></li>
-        <li><img src="./img/parceiros/wildbeast.svg" alt="wildbeast"></li>
+    <section id="parceiros" class="container mb-12 sm:mb-16">
+      <ul
+        class="flex flex-col items-center py-4 max-sm:divide-y-2 max-sm:divide-verde-900 *:p-4 sm:flex-row sm:gap-8 sm:border-b-2 sm:border-t-2 sm:border-verde-900 sm:py-8 *:*:max-h-8"
+      >
+        <li><img src="./img/parceiros/caravan.svg" alt="caravan" /></li>
+        <li><img src="./img/parceiros/dogs.svg" alt="dogs" /></li>
+        <li><img src="./img/parceiros/lescone.svg" alt="lescone" /></li>
+        <li><img src="./img/parceiros/surfbot.svg" alt="surfbot" /></li>
+        <li><img src="./img/parceiros/wildbeast.svg" alt="wildbeast" /></li>
       </ul>
+    </section>
 
-     </section>
+    <!-- footer -->
+    <footer class="container pb-8">
+      <div class="bg-verde-900 grid gap-8 lg:grid-cols-2 p-6 mb-8 sm:p-12 rounded-2xl">
+        <div class="flex gap-12 max-sm:flex-col max-sm:gap-4">
+          <div>
+            <h3 class="text-white font-serif text-xl mb-4">Endereço</h3>
+            <p class="text-gray-400">Rua da Mata, 123<br />Floresta Nacional</br />MG</p>
+          </div>
+          <div>
+            <h3 class="text-white font-serif text-xl mb-4">Contato</h3>
+            <p class="text-gray-400">contato@forest.com.br<br />(31)9 1234-5678</p>
+          </div>
+        </div>
+        <div class="lg:justify-self-end">
+          <img class="mb-4" src="./img/forest.svg" alt="Forest">
+          <p class="text-gray-400">Conecte-se com a natureza</p>
+        </div>
+      </div>
+      <div class="text-gray-400 flex items-center justify-between gap-8 text-sm max-sm:flex-col-reverse">
+        <p>2025 Forest. Todos os direitos reservados.</p>
+        <ul class="flex gap-8">
+          <li><a href="#" class="hover:text-verde-300">Instagram</a></li>
+          <li><a href="#" class="hover:text-verde-300">LinkedIn</a></li>
+          <li><a href="#" class="hover:text-verde-300">Facebook</a></li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
