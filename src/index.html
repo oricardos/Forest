@@ -12,14 +12,13 @@
     <div class="container mt-4 flex justify-center md:justify-start">
       <div class="inline-flex items-center rounded-md bg-verde-900">
         <span
-          class="size-2 bg-verde-300 block rounded-full relative -left-1"
+          class="size-2 neon block relative -left-1"
         ></span>
         <div
           class="flex text-verde-300 divide-x-2 divide-verde-800 *:px-4 *:py-2"
         >
           <div class="capitalize" id="day">Segunda</div>
           <div id="temperature">25º</div>
-          <!-- TODO TROCAR SOL POR EMOJIS -->
           <div id="wheather">Sol</div>
         </div>
       </div>
@@ -41,7 +40,7 @@
           <li class="animate-slide-in opacity-0 animate-4"><a class="lg:hover:underline lg:hover:underline-offset-8 p-4 block max-lg:hover:bg-white/10 lg:px-0 lg:py-2" href="#contato">Contato</a></li>
         </ul>
       </nav>
-      <button id="mobile-button" class="flex items-center gap-4 bg-verde-400 text-verde-900 py-2 px-4 rounded-full lg:hidden">
+      <button id="mobile-button" class="btn flex items-center py-2 gap-4 lg:hidden">
         Menu 
         <span class="h-3 w-4 flex flex-col justify-between *:h-0.5 *:rounded-md *:bg-verde-800">
           <span></span>
@@ -68,9 +67,9 @@
         >
           vagas para dezembro aberta
           <a
-            href=""
-            class="bg-verde-400 text-verde-900 py-2 px-4 inline-block rounded-full"
-            >Reserve Hoje</a
+            href="#contato"
+            class="btn inline-flex items-center gap-2"
+            >Reserve Hoje <img src="./img/seta.svg" alt=""></a
           >
         </div>
         <h1
@@ -106,7 +105,7 @@
     <!-- Acomodações -->
     <section
       id="acomodacoes"
-      class="container mb-12 sm:mb-16 pt-16 grid lg:grid-cols-[2fr_3fr] gap-8"
+      class="radial-gradient container mb-12 sm:mb-16 pt-16 grid lg:grid-cols-[2fr_3fr] gap-8"
     >
       <!-- descricoes -->
       <div
@@ -119,23 +118,23 @@
           class="text-gray-200 *:flex *:items-center *:gap-4 space-y-4 sm:text-xl"
         >
           <li>
-            <span class="w-6 h-0.5 bg-verde-400 inline-block"></span>Experimente
+            <span class="w-6 h-0.5 neon inline-block"></span>Experimente
             a natureza de perto
           </li>
           <li>
-            <span class="w-6 h-0.5 bg-verde-400 inline-block"></span>Conecte-se
+            <span class="w-6 h-0.5 neon inline-block"></span>Conecte-se
             com a natureza
           </li>
           <li>
-            <span class="w-6 h-0.5 bg-verde-400 inline-block"></span
+            <span class="w-6 h-0.5 neon inline-block"></span
             >Desconect-se do digital
           </li>
           <li>
-            <span class="w-6 h-0.5 bg-verde-400 inline-block"></span>Observe a
+            <span class="w-6 h-0.5 neon inline-block"></span>Observe a
             vida selvagem
           </li>
           <li>
-            <span class="w-6 h-0.5 bg-verde-400 inline-block"></span>Escolha a
+            <span class="w-6 h-0.5 neon inline-block"></span>Escolha a
             sua cabine preferida
           </li>
         </ul>
@@ -206,7 +205,7 @@
             </p>
             <a
               href="#contato"
-              class="justify-self-start self-end bg-verde-400 text-verde-900 py-2 px-4 inline-block rounded-full"
+              class="justify-self-start self-end inline-block btn"
               >Reservar 23/03</a
             >
           </div>
@@ -223,7 +222,7 @@
             </p>
             <a
               href="#contato"
-              class="justify-self-start self-end bg-verde-400 text-verde-900 py-2 px-4 inline-block rounded-full"
+              class="justify-self-start self-end inline-block btn"
               >Reservar 15/04</a
             >
           </div>
@@ -242,7 +241,7 @@
             </p>
             <a
               href="#contato"
-              class="justify-self-start self-end bg-verde-400 text-verde-900 py-2 px-4 inline-block rounded-full"
+              class="justify-self-start self-end inline-block btn"
               >Reservar 18/08</a
             >
           </div>
@@ -265,15 +264,15 @@
           Escolha sua próxima aventura
         </h2>
         <h3
-          class="text-white text-xl flex items-center gap-4 before:h-0.5 before:w-6 before:bg-verde-400 hover:before:w-10 before:transition-all before:rounded-full"
+          class="text-white text-xl flex items-center gap-4 before:h-0.5 before:w-6 before:neon hover:before:w-10 before:transition-all before:rounded-full"
         >
-          Obeservação Noturna
+          Observação Noturna
         </h3>
         <p class="mb-8 text-balance text-gray-400 pl-10">
           Explore a vida selvagem em seu habitat natural sob as estrelas.
         </p>
         <h3
-          class="text-white text-xl flex items-center gap-4 before:h-0.5 before:w-6 before:bg-verde-400 hover:before:w-10 before:transition-all before:rounded-full"
+          class="text-white text-xl flex items-center gap-4 before:h-0.5 before:w-6 before:neon hover:before:w-10 before:transition-all before:rounded-full"
         >
           Vida Selvagem
         </h3>
@@ -281,7 +280,7 @@
           Oberve a vida selvagem em seu habitat natural.
         </p>
         <h3
-          class="text-white text-xl flex items-center gap-4 before:h-0.5 before:w-6 before:bg-verde-400 hover:before:w-10 before:transition-all before:rounded-full"
+          class="text-white text-xl flex items-center gap-4 before:h-0.5 before:w-6 before:neon hover:before:w-10 before:transition-all before:rounded-full"
         >
           Canoagem
         </h3>
@@ -352,7 +351,7 @@
           class="grid flex-1 gap-4 bg-verde-900 p-6 sm:p-8 rounded-xl sm:hover:-translate-y-2 transition-transform"
         >
           <div
-            class="bg-verde-400 size-10 flex items-center justify-center rounded-full"
+            class="neon size-10 flex items-center justify-center"
           >
             <img src="./img/manha.svg" alt="" />
           </div>
@@ -368,7 +367,7 @@
           class="grid flex-1 gap-4 bg-verde-900 p-6 sm:p-8 rounded-xl sm:translate-y-12 sm:hover:translate-y-10 transition-transform"
         >
           <div
-            class="bg-verde-400 size-10 flex items-center justify-center rounded-full"
+            class="neon size-10 flex items-center justify-center"
           >
             <img src="./img/dia.svg" alt="" />
           </div>
@@ -384,7 +383,7 @@
           class="grid flex-1 gap-4 bg-verde-900 p-6 sm:p-8 rounded-xl sm:hover:-translate-y-2 transition-transform"
         >
           <div
-            class="bg-verde-400 size-10 flex items-center justify-center rounded-full"
+            class="neon size-10 flex items-center justify-center"
           >
             <img src="./img/noite.svg" alt="" />
           </div>
@@ -410,7 +409,7 @@
         </p>
         <div class="grid gap-4">
           <div>
-            <span class="h-0.5 w-6 bg-verde-400 inline-block"></span>
+            <span class="h-0.5 w-6 neon inline-block"></span>
             <h2 class="mb-2 text-2xl text-verde-300 font-serif">Base</h2>
             <p class="text-gray-300">
               Rua da Mata, 123 - Floresta Nacional - MG
@@ -418,13 +417,13 @@
           </div>
 
           <div>
-            <span class="h-0.5 w-6 bg-verde-400 inline-block"></span>
+            <span class="h-0.5 w-6 neon inline-block"></span>
             <h2 class="mb-2 text-2xl text-verde-300 font-serif">Email</h2>
             <p class="text-gray-300">contato@forest.com.br</p>
           </div>
 
           <div>
-            <span class="h-0.5 w-6 bg-verde-400 inline-block"></span>
+            <span class="h-0.5 w-6 neon inline-block"></span>
             <h2 class="mb-2 text-2xl text-verde-300 font-serif">Telefone</h2>
             <p class="text-gray-300">(31)9 1234-5678</p>
           </div>
@@ -440,7 +439,7 @@
             type="text"
             id="nome"
             name="nome"
-            class="rounded-md border-2 border-verde-800 bg-verde-800 p-2 text-white focus:outline-none focus:ring-2 focus:ring-verde-400 focus:border-verde-900 placeholder:text-verde-700"
+            class="input"
             placeholder="Nome completo"
           />
         </div>
@@ -451,7 +450,7 @@
               type="email"
               id="email"
               name="email"
-              class="rounded-md border-2 border-verde-800 bg-verde-800 p-2 text-white focus:outline-none focus:ring-2 focus:ring-verde-400 focus:border-verde-900 placeholder:text-verde-700"
+              class="input"
               placeholder="Seu melhor email"
             />
           </div>
@@ -462,7 +461,7 @@
               type="text"
               id="telefone"
               name="telefone"
-              class="rounded-md border-2 border-verde-800 bg-verde-800 p-2 text-white focus:outline-none focus:ring-2 focus:ring-verde-400 focus:border-verde-900 placeholder:text-verde-700"
+              class="input"
               placeholder="(XX) 9 XXXX-XXXX"
             />
           </div>
@@ -474,11 +473,11 @@
             id="mensagem"
             name="mensagem"
             rows="5"
-            class="rounded-md border-2 border-verde-800 bg-verde-800 p-2 text-white focus:outline-none focus:ring-2 focus:ring-verde-400 focus:border-verde-900 placeholder:text-verde-700 resize-none"
+            class="input resize-none"
           ></textarea>
         </div>
         <button
-          class="bg-verde-400 text-verde-900 py-2 px-4 inline-block rounded-full place-self-start"
+          class="btn place-self-start"
         >
           Enviar Mensagem
         </button>
