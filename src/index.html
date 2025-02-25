@@ -57,11 +57,12 @@
       <div
         class="text-white relative pt-12 sm:pt-64 px-4 sm:px-8 pb-8 bg-gradient-to-t from-verde-900/80"
       >
-        <img
+        <!-- <img
           src="./img/floresta.jpg"
           alt=""
           class="absolute -z-10 size-full object-cover inset-0 rounded-2xl overflow-hidden"
-        />
+        /> -->
+        <video id="video" width="1280" height="720" muted autoplay playsinline loop class="absolute -z-10 size-full object-cover inset-0 rounded-2xl overflow-hidden animate-fade-in" src="./img/video_chuva.mp4"></video>
         <div
           class="bg-verde-950/60 flex flex-col gap-2 p-4 items-start mb-8 rounded-xl sm:flex-row sm:bg-verde-950 sm:inline-flex sm:items-center sm:gap-8 sm:rounded-full sm:pl-4 sm:py-1 sm:pr-1"
         >
@@ -526,6 +527,23 @@
     </footer>
 
     <script>
+        const video = document.getElementById('video');
+        const temperature = document.getElementById('temperature')
+        const day = document.getElementById('day')
+        const wheather = document.getElementById('wheather')
+
+        const random = Math.floor(Math.random() * 10) + 20
+        temperature.innerText = `${random}º`
+        wheather.innerText = random < 25 ? `🌧️ ${random + 5}%` : '☀️';
+
+        const date = new Date();
+        day.innerText = date.toLocaleDateString('pt-BR', {
+          weekday:'long'
+        }).replace('-feira', '')
+
+        video.src = random < 25 ? './img/video_chuva.mp4' : './img/video_sol.mp4'
+
+      // menu
       const mobileButton = document.getElementById('mobile-button');
       const mobileMenu = document.getElementById('mobile-menu');
 

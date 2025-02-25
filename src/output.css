@@ -903,6 +903,20 @@ video {
   animation: spin 1s linear infinite;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  110% {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn .4s ease-in-out forwards;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
