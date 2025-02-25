@@ -154,7 +154,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: DM Sans, system-ui, sans-serif;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -695,6 +695,10 @@ video {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .inset-0 {
   inset: 0px;
 }
@@ -717,6 +721,10 @@ video {
 
 .-top-2 {
   top: -0.5rem;
+}
+
+.top-5 {
+  top: 1.25rem;
 }
 
 .-z-10 {
@@ -1357,11 +1365,6 @@ video {
   background-color: rgb(245 245 244 / var(--tw-bg-opacity, 1));
 }
 
-.bg-verde-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(23 232 128 / var(--tw-bg-opacity, 1));
-}
-
 .bg-verde-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(22 40 31 / var(--tw-bg-opacity, 1));
@@ -1589,16 +1592,12 @@ video {
   text-align: center;
 }
 
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
 .font-sans {
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: DM Sans, system-ui, sans-serif;
 }
 
 .font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: DM Serif Text, Georgia, serif;
 }
 
 .text-2xl {
@@ -1753,11 +1752,6 @@ video {
 .text-verde-300 {
   --tw-text-opacity: 1;
   color: rgb(145 238 119 / var(--tw-text-opacity, 1));
-}
-
-.text-verde-900 {
-  --tw-text-opacity: 1;
-  color: rgb(15 28 21 / var(--tw-text-opacity, 1));
 }
 
 .text-white {
@@ -2442,6 +2436,10 @@ video {
 
   .sm\:items-center {
     align-items: center;
+  }
+
+  .sm\:justify-center {
+    justify-content: center;
   }
 
   .sm\:gap-8 {
